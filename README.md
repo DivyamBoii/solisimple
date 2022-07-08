@@ -2,7 +2,7 @@
 ***
 ## *MUST JOIN THESE SERVERS*
 ### ➡️ [**😎 SUPPORT SERVER**](https://discord.gg/2upNaCgkyV) 
-### ➡️ [**🙃 EMOJI SERVER**](https://discord.gg/k8qCH6F3Eb) *atleast join this one*
+### ➡️ [**🙃 EMOJI SERVER**](https://discord.gg/k8qCH6F3Eb) (*atleast join this one*)
 
 ***
 
