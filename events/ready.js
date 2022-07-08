@@ -2,7 +2,7 @@ module.exports = (client) => {
     console.log(`😎 :: Logged in as ${client.user.tag}!`);
     const statuses = [
         `/help | @${client.user.username}`,
-        "⚙️SOLIDIUM",
+        "⚙️PALIXI",
         "🧨BetaV0.1",
         "😎DIVYAM"
     ]

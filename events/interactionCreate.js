@@ -51,6 +51,17 @@ module.exports = async (client, interaction) => {
             } 
           }
 
+          if (cmd.Devonly) {
+            // checking if user is developer or not
+            if (interaction.user.id !== `${config.DevID}`) {
+              let notdev = new MessageEmbed()
+              .setColor("RED")
+              .setTitle(`${emoji.error} • DEVELOPER ONLY`)
+              .setDescription(`> Your not \`DEVELOPER\` only developer can use it!`)
+              return interaction.reply({ embeds: [notdev], ephemeral: true});
+            } 
+          }
+
         const args = [];
 
         for (let option of interaction.options.data) {
