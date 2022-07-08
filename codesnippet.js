@@ -5,6 +5,8 @@ const ss = require('../../botcore/embed.json'); //remove if you don't need it in
 module.exports = {
     name: "", //name of the command ex: ping
     description: "", //description of your command ex: shows latency of bot
+    userPermissions: ["SEND_MESSAGES"],
+    botPermissions: ["SEND_MESSAGES"],
     cooldown: 1, //how much seconds till the user can use the command again
     run: async (client, interaction, args) => {
         interaction.reply({
