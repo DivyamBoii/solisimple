@@ -11,7 +11,7 @@
 > - *must have `node.js v16.6 or higher` to use this handler*
 
 
-> - *`./botcore/config.json` Adjust the `BOT TOKEN` and `PREFIX`*
+> - *`./botcore/config.json` Adjust the `BOT TOKEN`, `DevID`*
 
 
 > - *`./botcore/emoji.json` Adjust/change the `emoji code` if you know how to deal with it.*
