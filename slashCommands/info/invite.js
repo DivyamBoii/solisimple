@@ -24,6 +24,6 @@ module.exports = {
         let invite = new MessageEmbed()
         .setTitle(`**INVITE ${client.user.username}**`)
         .setFooter(ss.footertext, ss.footericon)
-		interaction.reply({ embeds: [invite], components: [row], ephemeral: true });
+		interaction.reply({ embeds: [invite], components: [row] });
     }
 };

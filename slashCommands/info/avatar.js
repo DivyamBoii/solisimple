@@ -23,6 +23,6 @@ module.exports = {
             new MessageButton() .setURL(interaction.user.displayAvatarURL({ size: 2048, dynamic: true, format: "gif"})) .setLabel("GIF") .setEmoji("924584875690967050") .setStyle("LINK")
         ])
 
-        interaction.reply({ embeds: [avatarembed], components: [row], ephemeral: true });
+        interaction.reply({ embeds: [avatarembed], components: [row] });
     }
 };

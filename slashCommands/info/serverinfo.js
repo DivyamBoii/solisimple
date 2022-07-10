@@ -7,8 +7,7 @@ module.exports = {
     category: "info",
     userPermissions: ["ADMINISTRATOR"],
     botPermissions: ["SEND_MESSAGES"],
-    cooldown: 1, 
-    Devonly: true,
+    cooldown: 1,
     run: async (client, interaction, args) => {
     let i0 = 0;
       let i1 = 10;

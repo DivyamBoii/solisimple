@@ -33,6 +33,6 @@ module.exports = {
                 , true
             )
             .setFooter(ss.footertext, ss.footericon)
-        return interaction.reply({ embeds: [pingEmbed], ephemeral: true })
+        return interaction.reply({ embeds: [pingEmbed] })
     }
 };
