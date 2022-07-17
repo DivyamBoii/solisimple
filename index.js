@@ -21,6 +21,11 @@ client.categories = fs.readdirSync("./slashCommands/");
         require(`./util/${h}`)(client);
 })  
 
+/*  WEB SERVER FOR REPLIT USERS  */   
+if(config.hostingweb == true) {
+  require("./webport")();
+}
+
 client.login(config.token);
 
 function clientSettingsObject() {
