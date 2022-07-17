@@ -37,4 +37,4 @@
 # `💳` `Credits`
 
 > - `PalixiStudios` 
-> - `𓆩DIVYAM𓆪#5031`
+> - `×͜×DÍVYAM×͜×#0001`
