@@ -15,7 +15,7 @@ client.slashCommands = new Collection();
 
 // load handler
 client.categories = fs.readdirSync("./slashCommands/");
-["events", "slashCommands", "antiHarm"]
+["events", "slashcommands", "antiHarm"]
     .filter(Boolean)
     .forEach(h => {
         require(`./util/${h}`)(client);
