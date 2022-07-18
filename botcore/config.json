@@ -3,7 +3,5 @@
     "prefix": "/", "comment": "this prefix is only for bot @ping reply but don't remove it or the bot wount't reply when you @ping the bot",
     "DevID": ["YOUR ID HERE"],
     "logchannel": "LOG CHANNEL ID",
-    "MONGOURI": "MONGOURI HERE",
-    "hostingweb": false, "NOTE": "Only enable hostingweb if you are using replit!",
-    "mongodb": false, "COMMENT": "Only enable if you need to connect to mongodb!"
+    "hostingweb": false, "NOTE": "Only enable hostingweb if you are using replit!"
 }

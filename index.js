@@ -26,11 +26,6 @@ if(config.hostingweb == true) {
   require("./webport")();
 }
 
-/*  MONGODB  */   
-if(config.mongodb == true) {
-  require("./Mongoose")();
-}
-
 client.login(config.token);
 
 function clientSettingsObject() {
