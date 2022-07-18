@@ -1,8 +1,9 @@
+const colors = require('colors');
 module.exports = (client) => {
-    console.log(`😎 :: Logged in as ${client.user.tag}!`);
+    console.log(`😎 :: Logged in as ${client.user.tag}!`.blue);
     const statuses = [
         `/help | @${client.user.username}`,
-        "⚙️PALIXI",
+        "⚙️Palixi",
         "🧨BetaV0.1",
         "😎DIVYAM"
     ]

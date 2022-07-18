@@ -1,7 +1,8 @@
 const { readdirSync } = require(`fs`);
+const colors = require('colors');
 
 module.exports = async (client) => {
-    console.log(`🪄  :: Loading SlashCommands`);
+    console.log(`🪄  :: Loading SlashCommands`.brightBlue);
     const slashCommandsArray = [];
     readdirSync(`${process.cwd()}/slashCommands/`)
         .forEach((directory) => {
