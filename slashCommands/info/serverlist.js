@@ -52,14 +52,12 @@ module.exports = {
       
   if(client.guilds.cache.size < 10) return interaction.reply({
       embeds: [emb],
-      components: [dis],
-      ephemeral: true
+      components: [dis]
   }) 
    
       let msg = await interaction.reply({
           embeds: [emb],
-          components: [pages],
-          ephemeral: true
+          components: [pages]
       });
  
     let filter = (i) => i.user.id === interaction.author.id;
