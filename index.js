@@ -26,7 +26,9 @@ if(config.hostingweb == true) {
   require("./webport")();
 }
 
-client.login(config.token);
+client.login(config.token).catch(e => {
+  console.log("The Bot Token You Entered Into Your Project Is Incorrect Or Your Bot's INTENTS Are OFF!")
+  })
 
 function clientSettingsObject() {
   return {
