@@ -1,7 +1,6 @@
 {
-    "token": "MTAwMzI0NjEyMDc4NjQ3NzA2Ng.G_a9UJ.YWypC4QXZ4bqQtgL_D8tegQOqic8oC678lYRUs",
+    "token": "YOUR-BOT-TOKEN-HERE",
     "prefix": "/", "comment": "this prefix is only for bot @ping reply but don't remove it or the bot wount't reply when you @ping the bot",
-    "DevID": ["863786843778449430"],
-    "logchannel": "936129143475671080",
-    "hostingweb": true, "NOTE": "Only enable hostingweb if you are using replit!"
+    "DevID": ["YOUR-ID-HERE"],
+    "logchannel": "LOG-CHANNEL-ID"
 }
